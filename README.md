@@ -97,7 +97,7 @@ jupyter notebook proyecto_final_telecom_operadores_ejecutado.ipynb
 
 ## Presentación
 
-La presentación ejecutiva con hallazgos, gráficas y recomendación está en [`presentacion.pdf`](./presentacion.pdf).
+La presentación ejecutiva con hallazgos, gráficas y recomendación está en [`presentacion.pdf`](https://drive.google.com/file/d/1CmWodMK1wTjtOhg_GXf4tJNfyN3PA53U/view?usp=sharing).
 
 ## Autor
 
