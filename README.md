@@ -5,11 +5,11 @@ Proyecto final de análisis de datos: detección de operadores con desempeño po
 ## Contenido del repositorio
 
 ```
-├── proyecto_final_telecom_operadores_ejecutado.ipynb   # Notebook principal (EDA + análisis + pruebas)
+├── proyecto_final_telecom_operadores_ejecutado.ipynb    # Notebook principal (EDA + análisis + pruebas)
 ├── telecom_dataset_new.csv                              # Registros de llamadas
-├── telecom_clients.csv                               # Clientes y tarifa contratada
+├── telecom_clients.csv                                  # Clientes y tarifa contratada
 ├── operator_inefficiency_metrics.csv                    # Métricas por operador (output)
-├── presentacion.pdf                                      # Presentación ejecutiva de hallazgos
+├── CallMeMaybe_Operadores_Ineficaces.pdf                # Presentación ejecutiva de hallazgos
 └── README.md
 ```
 
@@ -25,7 +25,7 @@ El proyecto construye un criterio objetivo y reproducible para detectar este pat
 
 ## Datos
 
-**`telecom_dataset_us.csv`** — un registro por combinación cliente/fecha/dirección/operador:
+**`telecom_dataset_new.csv`** — un registro por combinación cliente/fecha/dirección/operador:
 
 | Columna | Descripción |
 |---|---|
@@ -39,7 +39,7 @@ El proyecto construye un criterio objetivo y reproducible para detectar este pat
 | `call_duration` | Duración sin tiempo de espera |
 | `total_call_duration` | Duración incluyendo espera |
 
-**`telecom_clients_us.csv`** — `user_id`, `tariff_plan`, `date_start`.
+**`telecom_clients.csv`** — `user_id`, `tariff_plan`, `date_start`.
 
 Periodo cubierto: **2019-08-01 a 2019-11-27**, 307 clientes, 1,092 operadores identificados.
 
